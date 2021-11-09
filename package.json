@@ -37,7 +37,6 @@
     "webpack-dev-server": "^4.4.0",
     "webpack-merge": "^5.2.0"
   },
-  ,
   "bugs": {
     "url": "https://github.com/bjblayney/micro-test/issues"
   },
