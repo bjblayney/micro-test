@@ -1,0 +1,77 @@
+// $body-color: red;
+
+// body {
+//   color: $body-color;
+// }
+
+// MUI break points
+// xs, extra-small: 0px
+// sm, small: 600px
+// md, medium: 900px
+// lg, large: 1200px
+// xl, extra-large: 1536px
+
+$bp-xs: 0px;
+$bp-sm: 600px;
+$bp-md: 900px;
+$bp-lg: 1200px;
+$bp-xl: 1536px;
+
+.features {
+  padding: 0 1rem;
+}
+.rate {
+  text-align: center;
+  padding: 0 1rem;
+}
+.monthly {
+  text-align: center;
+  padding: 0 1rem;
+}
+.action {
+  justify-content: center;
+}
+
+@media (min-width: $bp-md) {
+  .card {
+    display: flex;
+    .content {
+      display: flex;
+      flex-grow: 1;
+      align-self: center;
+      .details {
+        display: flex;
+        flex-grow: 1;
+        align-self: center;
+        justify-content: space-around;
+        .features {
+          padding: 0;
+        }
+        .rate {
+          padding: 0;
+        }
+        .monthly {
+          padding: 0
+        }
+      }
+    }
+    .action {
+      flex-direction: column;
+      align-self: center;
+      justify-content: flex-end;
+      padding-right: 2rem;
+    }
+  }
+}
+
+.smFooter {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  ul {
+    padding-left: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+}
