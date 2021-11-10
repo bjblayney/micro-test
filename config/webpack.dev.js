@@ -6,9 +6,9 @@ const packageJson = require('../package.json');
 
 const devConfig = {
   mode: 'development',
-  optimization: {
-    runtimeChunk: 'single',
-  },
+  // optimization: {
+  //   runtimeChunk: 'single',
+  // },
   devServer: {
     port: 8000,
     historyApiFallback: {
