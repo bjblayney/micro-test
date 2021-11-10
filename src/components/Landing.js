@@ -80,9 +80,9 @@ export default function Landing() {
         <Container maxWidth="lg">
           <h1>Child component from another repo.</h1>
           <p>
-            Phasellus vel malesuada odio. Sed lacinia diam in dolor mollis, in
-            consectetur risus placerat. Praesent at hendrerit lectus. Sed
-            maximus mollis tristique. Curabitur tempus euismod nisi ac
+            Baby change. Phasellus vel malesuada odio. Sed lacinia diam in dolor
+            mollis, in consectetur risus placerat. Praesent at hendrerit lectus.
+            Sed maximus mollis tristique. Curabitur tempus euismod nisi ac
             condimentum. Donec tortor nisi, convallis vel purus at, pulvinar
             cursus diam. Vivamus egestas, eros fermentum maximus sodales, urna
             libero ultrices nisi, non efficitur ex nisi bibendum mauris. Nunc
