@@ -18,7 +18,7 @@ const devConfig = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'productTable',
+      name: 'products',
       filename: 'remoteEntry.js',
       exposes: {
         './ProductTable': './src/bootstrap',
