@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - main
-    paths: 
-      - 'packages/products/**'
-    
-defaults:
-  run:
-    working-directory: packages/products
   
 jobs:
   build:
